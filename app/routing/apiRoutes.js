@@ -7,6 +7,7 @@ module.exports = function(app){
     })
 
     app.post("/api/friends", function(req, res) {
+        console.log(req.body);
         friendData.push(req.body);
         var user = req.body;
 
@@ -15,7 +16,7 @@ module.exports = function(app){
             console.log(friendData[i].score);
     
             for (let j=0; j<friendData[i].score.length; j++){
-                    difference += user.score[j] - friendData[i].score[j];
+                    difference += Math.abs(user.score[j] - friendData[i].score[j]);
             }
     
             friendData[i].matchScore = difference;

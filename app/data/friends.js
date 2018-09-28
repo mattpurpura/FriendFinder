@@ -1,55 +1,39 @@
 var friendsArray = [
     {
-        name: "John", 
-        picture: 'askjdaskdjaskdjn', 
+        name: "Zeke - could be worse right?", 
+        picture: 'http://www.the-college-reporter.com/wp-content/uploads/2016/10/635476464634177906-871350363_Jimmy-tatro.png', 
         score: [
             3,
             3,
-            2,
-            5,
-            1,
-            4,
-            5,
-            1,
             3,
-            5
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
         ]
     },
     {
-        name: "Zack", 
-        picture: 'askjdaskdjaskdjn', 
+        name: "Goofy Goober - we can't all be members of the In-Crowd", 
+        picture: 'https://img.memecdn.com/im-a-goofy-goober_o_2868251.jpg', 
         score: [
-            2,
-            3,
-            2,
-            5,
             1,
-            4,
-            5,
             1,
-            3,
-            5
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
         ]
     },
     {
-        name: "Matt", 
-        picture: 'askjdaskdjaskdjn', 
-        score: [
-            4,
-            3,
-            2,
-            5,
-            1,
-            4,
-            5,
-            1,
-            3,
-            5
-        ]
-    },
-    {
-        name: "Perfect Match", 
-        picture: 'blake-lively.jpg', 
+        name: "Blake Lively - you lucky dog", 
+        picture: 'https://cdn-img.instyle.com/sites/default/files/styles/622x350/public/images/2016/08/081616-blake-lively-shallows-lead.jpg?itok=X8fTW9a8', 
         score: [
            5,
            5,
